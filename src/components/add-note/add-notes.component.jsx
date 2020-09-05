@@ -10,11 +10,11 @@ const AddNotes = ({ addNewNote }) => {
   };
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        type="text"
+      <textarea
         value={newNote}
         onChange={(event) => setNewNote(event.target.value)}
       />
+      <button type="submit">Add</button>
     </form>
   );
 };

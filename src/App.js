@@ -3,9 +3,10 @@ import "./App.css";
 
 import { ACTIONS, notesReducer, getNotes } from "./notesReducer";
 
-import Notes from "./components/Notes/notes.component";
-import AddNodes from "./components/AddNotes/add-notes.component";
-
+import Notes from "./components/notes/notes.component";
+import AddNodes from "./components/add-note/add-notes.component";
+import Header from "./components/header/header.component";
+import Footer from "./components/footer/footer.component";
 function App() {
   const [notes, dispatch] = useReducer(notesReducer, getNotes());
   const addNewNote = (newNote) => {
@@ -19,10 +20,14 @@ function App() {
     localStorage.setItem("notes", localNotes);
   }, [notes]);
   return (
-    <div className="App">
-      <Notes notes={notes} removeNote={removeNote} />
-      <AddNodes addNewNote={addNewNote} />
-    </div>
+    <>
+      <Header />
+      <div className="App">
+        <Notes notes={notes} removeNote={removeNote} />
+        <AddNodes addNewNote={addNewNote} />
+      </div>
+      <Footer />
+    </>
   );
 }
 

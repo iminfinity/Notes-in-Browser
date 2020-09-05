@@ -1,7 +1,7 @@
-.App {
+.notes {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  margin: 20px 0;
+  flex-wrap: wrap;
+  padding: 0 20px;
 }
