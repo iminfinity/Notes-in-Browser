@@ -1,5 +1,5 @@
 .note {
-  border: 2px solid black;
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,4 +9,15 @@
   padding: 15px 10px;
   width: 200px;
   margin: 10px;
+  box-shadow: 0 0 5px 1px #ff8906;
+  color: #fffffe;
+
+  &:hover {
+    box-shadow: 0 0 10px 5px #f25f4c;
+  }
+
+  button {
+    background: #ff8906;
+    color: #fffffe;
+  }
 }

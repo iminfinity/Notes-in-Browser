@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "./add-notes.styles.scss";
 const AddNotes = ({ addNewNote }) => {
   const [newNote, setNewNote] = useState("");
 
@@ -9,7 +9,7 @@ const AddNotes = ({ addNewNote }) => {
     setNewNote("");
   };
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="add-notes">
       <textarea
         value={newNote}
         onChange={(event) => setNewNote(event.target.value)}
