@@ -7,17 +7,29 @@
   word-wrap: break-word;
   word-break: break-all;
   padding: 15px 10px;
-  width: 200px;
   margin: 10px;
   box-shadow: 0 0 5px 1px #ff8906;
   color: #fffffe;
-
+  font-size: 25px;
+  font-family: "Lobster", cursive;
+  position: relative;
   &:hover {
     box-shadow: 0 0 10px 5px #f25f4c;
   }
 
   button {
-    background: #ff8906;
+    background: none;
     color: #fffffe;
+    font-size: 20px;
+    position: absolute;
+    top: -2px;
+    right: 2px;
+    border: none;
+    outline: none;
+    transition: all 1s ease;
+    &:hover {
+      transform: rotate(90deg);
+      color: #e53170;
+    }
   }
 }

@@ -1,17 +1,17 @@
 .header {
-  background: #fff;
+  background: #ffffff3f;
   height: 53px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 3px solid #101010;
+  color: #fffffe;
   h1 {
     margin-left: 30px;
     font-size: 40px;
-
     font-family: "Dancing Script", cursive;
   }
   svg {
     height: 30px;
+    fill: #fffffe;
   }
 }
