@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Notes-in-Browser/static/css/main.fa22f039.chunk.css",
+    "main.js": "/Notes-in-Browser/static/js/main.d9150ad5.chunk.js",
+    "main.js.map": "/Notes-in-Browser/static/js/main.d9150ad5.chunk.js.map",
+    "runtime-main.js": "/Notes-in-Browser/static/js/runtime-main.7b15b4af.js",
+    "runtime-main.js.map": "/Notes-in-Browser/static/js/runtime-main.7b15b4af.js.map",
+    "static/js/2.4fcb0a05.chunk.js": "/Notes-in-Browser/static/js/2.4fcb0a05.chunk.js",
+    "static/js/2.4fcb0a05.chunk.js.map": "/Notes-in-Browser/static/js/2.4fcb0a05.chunk.js.map",
+    "index.html": "/Notes-in-Browser/index.html",
+    "precache-manifest.26c015041e14b601f5007fa68f9ec259.js": "/Notes-in-Browser/precache-manifest.26c015041e14b601f5007fa68f9ec259.js",
+    "service-worker.js": "/Notes-in-Browser/service-worker.js",
+    "static/css/main.fa22f039.chunk.css.map": "/Notes-in-Browser/static/css/main.fa22f039.chunk.css.map",
+    "static/js/2.4fcb0a05.chunk.js.LICENSE.txt": "/Notes-in-Browser/static/js/2.4fcb0a05.chunk.js.LICENSE.txt",
+    "static/media/github.a9f7ad3d.svg": "/Notes-in-Browser/static/media/github.a9f7ad3d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b15b4af.js",
+    "static/js/2.4fcb0a05.chunk.js",
+    "static/css/main.fa22f039.chunk.css",
+    "static/js/main.d9150ad5.chunk.js"
+  ]
+}
